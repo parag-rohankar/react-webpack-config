@@ -1,0 +1,13 @@
+@use './image';
+
+$primary-color:red;
+
+body {
+    background-color: $primary-color;
+    color: #000000;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
